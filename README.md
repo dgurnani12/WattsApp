@@ -3,4 +3,4 @@
 ### Frontend: Android Studio/Java
 
 
-... I'm still developing this app, come back in a few days
+... I'm still developing this app, come back in a few Hours
