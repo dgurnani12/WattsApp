@@ -32,10 +32,14 @@ public class StarterApplication extends Application {
             .build()
     );
 
-    ParseUser.enableAutomaticUser();
+    //ParseUser.enableAutomaticUser();
+
     ParseACL defaultACL = new ParseACL();
-    // Optionally enable public read access.
-    // defaultACL.setPublicReadAccess(true);
+
+    // Optionally enable public read/write access.
+    defaultACL.setPublicReadAccess(true);
+    defaultACL.setPublicWriteAccess(true);
+
     ParseACL.setDefaultACL(defaultACL, true);
   }
 }
